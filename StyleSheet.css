@@ -1,0 +1,40 @@
+﻿h1{
+    text-align: center; /*Analogo ad Align*/
+}
+div{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: violet;
+    word-spacing: 5px;
+    letter-spacing: -1px; /*puo anche essere negativo*/
+    text-decoration: overline;
+    text-align: right;
+    border: 1px solid black;
+    width: 800px;
+    height: 60px;
+    vertical-align: middle; /*NON FUNZIONA SU I BLOCK TAG*/
+    line-height: 60px;
+    background-color: lime;
+}
+#TerzoDiv{
+    color: white;
+    text-align: center;
+}
+/*stile che verra applicato quando il cursore va sopra il terzo div*/
+#TerzoDiv:hover{
+    background-color: #FF9;
+    width: 400px;
+    height: 120px;
+    line-height: 120px;
+}
+.SecondoDiv{
+    color: red;
+    text-align: left;
+    text-decoration: none;
+}
+body{
+    background-color: aqua;
+}
